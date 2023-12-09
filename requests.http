@@ -1,0 +1,13 @@
+GET http://localhost:9000/mascotas/buscar HTTP/1.1
+
+###
+GET  http://localhost:9000/mascotas/buscar HTTP/1.1
+
+###
+POST  http://localhost:9000/mascotas/crear HTTP/1.1
+
+###
+PUT  http://localhost:9000/mascotas/actualizar/1 HTTP/1.1
+
+###
+DELETE http://localhost:9000/mascotas/eliminar/1 HTTP/1.1
