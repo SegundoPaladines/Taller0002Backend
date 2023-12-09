@@ -6,12 +6,7 @@ Como el git ingore evita se suban los node_mudules, debes ejecutar los siguiente
 
 ## Instalar Express JS
 ```bash
-npm install express
-```
-
-## Instalar nodemon
-```bash
-npm install nodemon -D
+npm install
 ```
 
 ## Correr el Servidor
@@ -21,15 +16,5 @@ npm run start
 
 ## Visualizar en el navegador <- vaya al navegador y pege lo siguiente
 ```bash
-localhost:3000
+localhost:9000
 ```
-
-## Para bases de datos con MySQL:
-```bash
-npm install mysql2
-```
-
-## Instalar Sequelize
-```bash
-npm install sequelize
-``````
