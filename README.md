@@ -33,4 +33,4 @@ localhost:9000
 [Dbeaver](https://dbeaver.io/download/)
 
 ## Guia instalacion para linux Mint
-[Instalacion de Dbeaver](https://aprendeit.com/instalar-dbeaver-en-linux/)
+[Instalacion de Dbeaver para Linux Mint](https://aprendeit.com/instalar-dbeaver-en-linux/)
