@@ -2,8 +2,14 @@ import express from 'express';
 import { mascotasRouter } from '../rutas/mascotasRouter.js';
 import { db } from '../database/conexion.js';
 
+//libreria para que el app pueda entender los body de las req
+import bodyParser from 'body-parser';
+
 //Crear la instancia de express
 const app = express();
+
+//indicando que la app usara el body parser para entender bodys en JSON
+app.use(bodyParser.json());
 
 //constante que inicializa el puerto
 const PORT = 9000;

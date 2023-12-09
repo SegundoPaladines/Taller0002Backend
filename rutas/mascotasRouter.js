@@ -1,4 +1,5 @@
 import express from 'express'
+import { crearMascota, mascotaActualizar, mascotaEliminar, mascotaEncontrar, mascotaEncontrarTodos } from '../controladores/mascotasControlador.js';
 
 // crear la instancia de tipo routerS
 const mascotasRouter = express.Router();
@@ -9,23 +10,28 @@ mascotasRouter.get('/', (req, res)=>{
     res.send("Bienvenido a Mascotas");
 });
 
+mascotasRouter.get('/buscar/:id', (req, res)=>{
+    mascotaEncontrar(req, res);
+});
+
 mascotasRouter.get('/buscar', (req, res)=>{
-    res.send("Buscar Mascotas");
+    mascotaEncontrarTodos(req, res);
 });
 
 //POST <- enviar info al software
 mascotasRouter.post('/crear', (req, res)=>{
-    res.send("Crear Mascotas");
+    //llamar a la funcion del controlador
+    crearMascota(req, res);
 });
 
 //PUT <- cuando se desea actualizar elementos
 mascotasRouter.put('/actualizar/:id', (req, res)=>{
-    res.send("Actualizar mascota");
+    mascotaActualizar(req, res);
 });
 
 //DELETE <- para eliminar elementos
 mascotasRouter.delete('/eliminar/:id', (req, res)=>{
-    res.send("Eliminar mascota");
+    mascotaEliminar(req, res);
 });
 
 export {mascotasRouter};

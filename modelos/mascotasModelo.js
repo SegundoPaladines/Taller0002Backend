@@ -1,5 +1,5 @@
 import { Sequelize } from "sequelize";
-import { db } from "../database/conexion";
+import { db } from "../database/conexion.js";
 
 //definir la tabla
 const mascotas = db.define("mascotas",{
@@ -10,7 +10,9 @@ const mascotas = db.define("mascotas",{
         //si se puede dejar vacio
         allowNull: false,
         //si es llave primaria
-        primaryKey: true
+        primaryKey: true,
+        //
+        autoIncrement: true
     },
     nombre:{
         //tipo de dato
