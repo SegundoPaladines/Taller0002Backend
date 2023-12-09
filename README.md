@@ -25,7 +25,8 @@ localhost:9000
 [Xampp](https://www.apachefriends.org/es/index.html)
 
 ## Guia de instalacion para Linux Mint
-[MySql](https://www.neoguias.com/instalar-xampp-linux-mint/#Como_Instalar_XAMPP_en_Linux_Mint)
+
+[Instalacion Xampp para Linux Mint](https://www.neoguias.com/instalar-xampp-linux-mint#Como_Instalar_XAMPP_en_Linux_Mint)
 
 
 ## Instalar Dbeaver:
