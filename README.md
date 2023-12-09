@@ -4,7 +4,7 @@ Ejemplos de node con express para el diplomado
 
 Como el git ingore evita se suban los node_mudules, debes ejecutar los siguiente comandos para que funcione una vez clonado el repositorio:
 
-## Instalar Express JS
+## Instalar Los Módulos Necesarios
 ```bash
 npm install
 ```
