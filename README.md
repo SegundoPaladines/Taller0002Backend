@@ -34,3 +34,5 @@ localhost:9000
 
 ## Guia instalacion para linux Mint
 [Instalacion de Dbeaver para Linux Mint](https://aprendeit.com/instalar-dbeaver-en-linux/)
+
+# No olvide que debe crear la base de datos, la tabla y el usuario ya que se trabaja con los mismos <- puede revisar los elementos en /database y /modelos
